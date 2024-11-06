@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: src_postgres
+    schema: production
+    database: Adventureworks
+
+    tables:
+      - name: productcategory

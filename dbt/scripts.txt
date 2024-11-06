@@ -1,0 +1,17 @@
+## Ref
+https://github.com/vitlamdata/dbt_template_by_vitlamdata
+
+# Run in cmd
+python -m venv .dbtenv
+
+bin\windows\install_python_venv
+
+bin\windows\install_python_libraries
+
+bin\windows\install_dbt_libraries
+
+dbt --version
+
+dbt debug
+
+dbt init warehouse
