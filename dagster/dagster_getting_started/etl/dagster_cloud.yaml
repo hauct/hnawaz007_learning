@@ -1,0 +1,4 @@
+locations:
+  - location_name: etl
+    code_source:
+      package_name: etl
