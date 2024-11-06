@@ -1,9 +1,16 @@
 version: 2
 
 sources:
-  - name: src_postgres
+  - name: src_postgres_production
     schema: production
     database: Adventureworks
 
     tables:
       - name: productcategory
+
+  - name: src_postgres_address
+    schema: person
+    database: Adventureworks
+
+    tables:
+      - name: address

@@ -11,3 +11,8 @@ models:
           - not_null
       - name: productcategory
         description: "Name of the key"
+
+  - name: stg_address
+    description: "This table stores address data"
+    columns:
+      - name: adress

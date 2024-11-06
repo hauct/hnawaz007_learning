@@ -4,11 +4,8 @@ https://github.com/vitlamdata/dbt_template_by_vitlamdata
 # Run in cmd
 python -m venv .dbtenv
 
-bin\windows\install_python_venv
-
-bin\windows\install_python_libraries
-
-bin\windows\install_dbt_libraries
+.dbtenv\Scripts\activate
+$ source .dbtenv/Scripts/activate
 
 dbt --version
 
